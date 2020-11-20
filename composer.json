@@ -3,9 +3,13 @@
     "type": "neos-package",
     "name": "wwwision/likes",
     "require": {
-        "neos/flow": "^4.0",
-        "neos/event-sourcing": "*"
+        "neos/flow": "^5.0",
+        "neos/event-sourcing": "^2.0"
     },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Wwwision\\Likes\\": "Classes/"
